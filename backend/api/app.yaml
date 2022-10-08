@@ -1,0 +1,11 @@
+# [START runtime]
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT api.wsgi
+
+beta_settings:
+    cloud_sql_instances: "massemaildetector:europe-west1:massemaildetector-mysql"
+
+runtime_config:
+  python_version: 3
+# [END runtime]
