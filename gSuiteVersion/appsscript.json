@@ -1,0 +1,19 @@
+{
+  "timeZone": "GMT",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.readonly",
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "gmail": {
+    "name": "Mass Email Detector",
+    "logoUrl": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.berchenling.org%2Fwp-content%2Fuploads%2F2017%2F01%2Fkbl-icon-flashlight.png&f=1&nofb=1",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "getContextualAddOn"
+    }],
+    "primaryColor": "#41f470",
+    "secondaryColor": "#94f441"
+  }
+}
