@@ -1,4 +1,4 @@
-# Mass_Email_E_Biz
+# G-Suite_Mass_Email_Detection
 Repository for the E-Business module, tasked with building a Mass Email detector. This application exists as a gmail plugin that interfaces with a backend django enviornment. This readme.md will get you started on how to install and run the application.
 
 ## How to Install
