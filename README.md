@@ -32,7 +32,7 @@ mkdir <project-name>
 cd <project-name>
 virtualenv venv
 source venv/bin/activate
-git clone https://github.com/cheethas/Mass_Email_E_Biz
+git clone https://github.com/LukeFeely/G-Suite_Mass_Email_Detection
 cd Mass_Email_E_Biz/backend/api
 pip3 install -r requirements.txt
 python3 manage.py makemigrations
